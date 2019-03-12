@@ -1,0 +1,20 @@
+[
+  {
+    "name": "development",
+    "type": "mongodb",
+    "host": "ds117271.mlab.com",
+    "port": 17271,
+    "username": "root",
+    "password": "pa55w0rd",
+    "database": "migration-testing",
+    "entities": ["src/models/*.*"]
+  },
+  {
+    "name": "test",
+    "type": "mongodb",
+    "host": "localhost",
+    "port": 27017,
+    "database": "migration-testing-test",
+    "entities": ["src/models/*.*"]
+  }
+]
